@@ -138,7 +138,7 @@ body {
 
 /* -----------event------------ */
 .event {
-  
+  max-width: 1440px;
   background: var(--title-color);
   padding-top: 188px;
   padding-bottom: 188px;
@@ -150,6 +150,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  
 
 }
 .event-conteiner {
