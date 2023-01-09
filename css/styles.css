@@ -84,7 +84,7 @@ body {
 }
 .header-list {
   display: flex;
-  gap: 40px;
+
 }
 .header-item {
   margin-left: 40px;
@@ -96,6 +96,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  gap: 40px;
 }
 .header-link.current {
   color: var(--btn-fon);
@@ -139,7 +140,6 @@ body {
 /* -----------event------------ */
 .event {
   max-width: 1440px;
-  min-width: 1440px;
   background: var(--title-color);
   padding-top: 188px;
   padding-bottom: 188px;
@@ -266,7 +266,6 @@ body {
 }
 /* -------------team-------------- */
 .team {
-  min-width: 1156px;
   background: var(--team-color);
   padding-top: 120px;
   padding-bottom: 120px;
@@ -363,7 +362,7 @@ body {
 }
 
 .test-item {
-  width: calc((100% - 144px) / 6);
+  width: calc((100% - 5 * 24px) / 6);
   height: 88px;
 }
 
@@ -396,7 +395,6 @@ body {
 
 /* -------------footer-------------- */
 .footer {
-  min-width: 1156px;
   background: var(--title-color);
   padding-top: 100px;
   padding-bottom: 100px;
