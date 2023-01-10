@@ -6,6 +6,8 @@
   --fon-color: #ffffff;
   --team-color: #f4f4fd;
   --end-name: #e7e9fc;
+  --soc-icon:#31D0AA;
+  --partners: #8E8F99;
 }
 
 .a {
@@ -55,14 +57,16 @@ body {
 }
 /* --------------heder----------- */
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-navigation {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header-logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -83,11 +87,21 @@ body {
   color: var(--logo-color);
 }
 .header-list {
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+   gap: 40px;
 
 }
 .header-item {
-  margin-left: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 .header-link {
   font-family: inherit, sans-serif;
@@ -104,6 +118,7 @@ body {
 .header-contakt {
   display: flex;
   margin-left: auto;
+  gap: 40px;
 }
 .header-hookup {
   display: flex;
@@ -125,7 +140,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
 
-  margin-right: auto;
 }
 
 
@@ -133,12 +147,21 @@ body {
 .header-item :focus {
   color: var(--btn-fon);
 }
+
 .header-item :active {
   color: var(--btn-fon);
 }
-
+.header-mail-icon:hover,
+.header-mail-icon:focus {
+  fill: var(--btn-fon);
+}
+.header-tel-icon:hover,
+.header-tel-icon:focus {
+  fill: var(--btn-fon);
+}
 /* -----------event------------ */
 .event {
+  margin: 0 auto;
   max-width: 1440px;
   background: var(--title-color);
   padding-top: 188px;
@@ -215,7 +238,7 @@ body {
   height: 112px;
   border-radius: 4px;
   margin-bottom: 8px;
-  background-color: #F4F4FD;  
+  background-color: var(--team-color);  
   
 }
 
@@ -386,7 +409,7 @@ body {
   fill: var(--btn-fon);
 }
 .test-icon {
-  fill: #8E8F99;
+  fill: var(--partners);
  
 }
 
@@ -465,7 +488,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
+  color: var(--fon-color);
   margin-bottom: 16px;
   
 
@@ -482,7 +505,7 @@ body {
 }
 .footer-soc-icon:hover,
 .footer-soc-icon:focus {
-  background-color: #31D0AA;
+  background-color: var(--soc-icon);
 
 }
 
