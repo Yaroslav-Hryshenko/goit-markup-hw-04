@@ -124,6 +124,7 @@ body {
   display: flex;
 }
 .header-mail {
+   padding: 5px 5px;
   font-family: inherit, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -133,6 +134,7 @@ body {
 
 
 .header-tel {
+   padding: 5px 5px;
   font-family: inherit, sans-serif;
   font-weight: 400;
   font-size: 16px;
