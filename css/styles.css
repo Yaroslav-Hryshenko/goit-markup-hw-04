@@ -396,13 +396,14 @@ body {
 }
 
 .test-link:hover,
-.test-link:focus {
+.test-link:focus{
  border-color: var(--btn-fon);
 
 }
 
-.test-link:hover .test-icon {
-  fill: var(--btn-fon);
+.test-link:hover .test-icon,
+.test-link:focus .test-icon {
+    fill: var(--btn-fon);
 }
 .test-icon {
   fill: var(--partners);
