@@ -398,10 +398,9 @@ body {
 .test-link:hover,
 .test-link:focus {
  border-color: var(--btn-fon);
+
 }
-.test-link:active{
-  border-color: var(--btn-fon);
-}
+
 .test-link:hover .test-icon {
   fill: var(--btn-fon);
 }
@@ -534,6 +533,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--logo-color);
+  background-color:var(--end-name) ;
   cursor: pointer;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
